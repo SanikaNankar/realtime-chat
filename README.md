@@ -5,3 +5,5 @@ It is basically a realtime chatting website having login authentication portal w
 [![Namaste Status](https://img.shields.io/badge/NAMASTE%20MESSENGER-LIVE-green?style=for-the-badge)](http://srohackers.epizy.com/)
 
 <img src="readme-img.png">
+
+To deploy it on AWS cloud environment we have create RDS database and store our database their and also need to edit our connection file with the endpoint url of RDS and the credentials we give for RDS .
