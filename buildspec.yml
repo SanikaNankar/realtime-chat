@@ -3,8 +3,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - sudo apt update
-      - sudo apt install -y apache2 php libapache2-mod-php php-mysql php-dom php-gd mysql-server git
+      - sudo yum update -y
+      - sudo yum install -y httpd php php-mysql php-dom php-gd mysql git
   build:
     commands:
       - # Add your build commands here
